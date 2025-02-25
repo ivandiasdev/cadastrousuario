@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-    baseURL: 'http://localhost:3000',
+    baseURL: 'https://apicadastro-feps.onrender.com/',
     headers: {
         'Authorization': 'Bearer YOUR_API_TOKEN',
     },
